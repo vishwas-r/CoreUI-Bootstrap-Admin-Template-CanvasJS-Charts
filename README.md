@@ -5,6 +5,8 @@
 [![Bootstrap Admin Template](https://raw.githubusercontent.com/vishwas-r/CoreUI-Bootstrap-Admin-Template-CanvasJS-Charts/master/screenshots/screenshot-main-page.png)](https://coreui.io/)
 
 [CoreUI](https://coreui.io/) is an Open Source Bootstrap Admin Template. This project shows using CanvasJS Charts within CoreUI.
+
+
 *Note:* This plugin requires you to have CanvasJS License. Please visit [CanvasJS](https://canvasjs.com/license/) for more info.
 
 ## Installation
