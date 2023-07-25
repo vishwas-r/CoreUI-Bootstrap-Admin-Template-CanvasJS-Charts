@@ -8,7 +8,6 @@
  * Licensed under MIT (https://coreui.io/license)
  * --------------------------------------------------------------------------
  */
-
 /* eslint-disable no-magic-numbers */
 // Disable the on-canvas tooltip
 var hiddenAxis = {
@@ -107,13 +106,13 @@ var mainChart = new CanvasJS.Chart('main-chart', {
   },
   data: [{
 	type: 'splineArea',
-	color: getStyle('--info'),
+	color: "#63c2de",
 	markerSize: 0,
 	fillOpacity: 0.2,
 	dataPoints: generateDataPoints(['M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S'], [165, 180, 70, 69, 77, 57, 125, 165, 172, 91, 173, 138, 155, 89, 50, 161, 65, 163, 160, 103, 114, 185, 125, 196, 183, 64, 137, 95, 112, 175])
   },{
 	type: "spline",
-	color: getStyle('--success'),
+	color: "#4dbd74",
 	markerSize: 0,
 	dataPoints: generateDataPoints(['M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S'], [92, 97, 80, 100, 86, 97, 83, 98, 87, 98, 93, 83, 87, 98, 96, 84, 91, 97, 88, 86, 94, 86, 95, 91, 98, 91, 92, 80, 83, 82])
   }]

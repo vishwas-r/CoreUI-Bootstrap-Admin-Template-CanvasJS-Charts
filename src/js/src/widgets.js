@@ -24,7 +24,7 @@ const cardChart1 = new Chart($('#card-chart1'), {
     datasets: [
       {
         label: 'My First dataset',
-        backgroundColor: getStyle('--primary'),
+        backgroundColor: "#20a8d8",
         borderColor: 'rgba(255,255,255,.55)',
         data: [65, 59, 84, 84, 51, 55, 40]
       }
@@ -76,7 +76,7 @@ const cardChart2 = new Chart($('#card-chart2'), {
     datasets: [
       {
         label: 'My First dataset',
-        backgroundColor: getStyle('--info'),
+        backgroundColor: "#63c2de",
         borderColor: 'rgba(255,255,255,.55)',
         data: [1, 18, 9, 17, 34, 22, 11]
       }
@@ -202,7 +202,7 @@ const sparklineChart1 = new Chart($('#sparkline-chart-1'), {
     labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M'],
     datasets: [
       {
-        backgroundColor: getStyle('--primary'),
+        backgroundColor: "#20a8d8",
         borderColor: 'transparent',
         borderWidth: 1,
         data: [random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100)]
@@ -262,7 +262,7 @@ const sparklineChart3 = new Chart($('#sparkline-chart-3'), {
     labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M'],
     datasets: [
       {
-        backgroundColor: getStyle('--success'),
+        backgroundColor: "#4dbd74",
         borderColor: 'transparent',
         borderWidth: 1,
         data: [random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100)]
@@ -293,7 +293,7 @@ const sparklineChart4 = new Chart($('#sparkline-chart-4'), {
     datasets: [
       {
         backgroundColor: 'transparent',
-        borderColor: getStyle('--info'),
+        borderColor: "#63c2de",
         borderWidth: 2,
         data: [random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100)]
       }
@@ -328,7 +328,7 @@ const sparklineChart5 = new Chart($('#sparkline-chart-5'), {
     datasets: [
       {
         backgroundColor: 'transparent',
-        borderColor: getStyle('--success'),
+        borderColor: "#4dbd74",
         borderWidth: 2,
         data: [random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100)]
       }
@@ -363,7 +363,7 @@ const sparklineChart6 = new Chart($('#sparkline-chart-6'), {
     datasets: [
       {
         backgroundColor: 'transparent',
-        borderColor: getStyle('--danger'),
+        borderColor: "#f5302e",
         borderWidth: 2,
         data: [random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100), random(40, 100)]
       }

@@ -5,7 +5,6 @@
  * Licensed under MIT (https://coreui.io/license)
  * --------------------------------------------------------------------------
  */
-
 /* eslint-disable no-magic-numbers */
 // random Numbers
 var randomDataPoints = function(labels) {
